@@ -1,0 +1,33 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown select {
+    padding: 5px 10px;
+    font-size: 16px;
+}
